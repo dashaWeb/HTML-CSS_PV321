@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Caricature;
+    src: url(../font/Caricature.fr.ttf);
+}
+body{
+    margin: 0;
+}
+.container{
+    width: 960px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+header{
+    background-color: #0db5e4;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Caricature;
+    padding: 10px;
+}
+figure{
+    text-align: center;
+}
+figure img{
+    width: 80%;
+}
+h3{
+    text-transform: uppercase;
+    color:#383733;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+p{
+    color: #a4a4a6;
+    line-height: 30px;
+    font-family: sans-serif;
+
+}
+a{
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: #0db5e4;
+    color:#fff;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+}
+article{
+    margin-bottom: 50px;
+}
+.center{
+    text-align: center;
+}
+.left img{
+    float: left;
+    margin-right: 15px;
+}
+.right img{
+    float: right;
+    margin-left: 15px;
+    clear: both;
+}
+.col-2 article{
+    width: 49%;
+    float: left;
+}
+.col-2 article:first-child{
+    margin-right: 2%;
+}
+h4{
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.col-3{
+    clear: both;
+}
+.col-3 article{
+    width: 32%;
+    float: left;
+}
+.col-3 article:nth-child(2){
+    margin-right: 2%;
+    margin-left: 2%;
+}
